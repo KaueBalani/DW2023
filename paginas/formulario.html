@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="" method="">
+        <div>
+            <label for="entrada1">Nome:</label> <!--Label = insere um rótulo.-->
+            <input type="text" id="entrada1" size="100" maxlength="10" minlength="3" placeholder="Digite seu nome"> <!--Input text = entrada de texto-->
+        </div>
+        <br>
+        <div>
+            <label for="entrada2">Senha:</label>
+            <input type="password" id="entrada2" required placeholder="Digite sua senha">
+        </div>
+        <br>
+        <div>
+            <label for="">Hobbies:</label>
+            <br>
+            <label for="entrada3">Esportes</label>
+            <input type="checkbox" name="" id="entrada3">
+            <label for="entrada4">Programar</label>
+            <input type="checkbox" name="" id="entrada4">
+            <label for="entrada5">leitura</label>
+            <input type="checkbox" name="" id="entrada5">
+        </div>
+        <br>
+        <div>
+            <label for="">Escolha o tipo:</label>
+            <br>
+            <input type="radio" name="tipo" id="adulto">
+            <label for="adulto">adulto</label>
+            <input type="radio" name="tipo" id="adolescente">
+            <label for="adolescente">adolescente</label>
+            <input type="radio" name="tipo" id="crianca">
+            <label for="crianca">criança</label>
+        </div>
+        <br>
+        <div>
+            <label for="arquivo">Escolha um arquivo:</label>
+            <input type="file" name="" id="arquivo" accept="image/png">
+        </div>
+        <br>
+        <div>
+            <label for="">Escolha uma opção:</label>
+            <select name="" id="">
+                <option value="">TSI</option>
+                <option value="">TME</option>
+                <option value="">Informática</option>
+                <option value="">Admnistração</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Deixe seu recado"></textarea>
+        </div>
+        <br>
+        <div>
+            <!--Botoes-->
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+        </div>
+    </form>
+</body>
+</html>
